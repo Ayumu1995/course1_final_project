@@ -1,0 +1,28 @@
+section {
+  margin-top: 80px;
+}
+
+.text-format {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  text-align: center;
+}
+
+.sticky_left {
+  top: 50vh;
+  left: 50px;
+  font-size: 15px;
+  position: sticky;
+  writing-mode: vertical-rl;
+  margin-top: -400px;
+  transform: rotate(180deg);
+}
+
+section img {
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+
+  width: 75%;
+}
