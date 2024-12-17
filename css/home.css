@@ -2,6 +2,11 @@ section {
   margin-top: 80px;
 }
 
+#news_section {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+}
+
 .text-format {
   font-size: 26px;
   font-weight: 600;
@@ -10,35 +15,41 @@ section {
 }
 
 .sticky_left {
+  position: sticky;
   top: 50vh;
+  transform: translateY(-50%);
   left: 50px;
   font-size: 15px;
-  position: sticky;
+  text-align: center;
+  height: 30vh;
   writing-mode: vertical-rl;
-  margin-top: -400px;
   transform: rotate(180deg);
+}
+
+#services-flex {
+  display: flex;
+  justify-content: center;
 }
 
 section img {
   margin: auto;
   margin-top: 50px;
   display: block;
-  width: 75%;
+  width: 100%;
 }
 
-.image_wrapper {
+.image-wrapper {
   position: relative;
   z-index: -1;
 }
 
-div > div > h3 {
+.text-in-image {
   margin: 0;
   font-size: 57px;
   font-weight: 400;
   color: white;
   opacity: 0.9;
   letter-spacing: 0.2em;
-
   position: absolute;
   top: 50%;
   left: 50%;
