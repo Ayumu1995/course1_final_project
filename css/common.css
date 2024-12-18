@@ -31,3 +31,29 @@ header a {
 header img {
   height: 15px;
 }
+
+a {
+  color: black;
+}
+
+footer {
+  padding: 120px 5% 0 5%;
+  height: 250px;
+  background-color: black;
+}
+
+footer h1 {
+  color: white;
+  float: left;
+  font-size: 24px;
+}
+
+footer .sns {
+  font-size: 22px;
+  color: white;
+  float: right;
+}
+
+.sns:last-child {
+  margin-right: 20px;
+}

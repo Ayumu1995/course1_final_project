@@ -1,0 +1,127 @@
+body {
+  padding: 50px 20%;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 7px;
+}
+
+h3 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 4% 3% 0 3%;
+  border-radius: 12px;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-areas:
+    "h-name name"
+    "h-email email"
+    "h-company company"
+    "h-phone phone"
+    "h-category category"
+    "h-description description";
+
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(5, 1fr) 2fr;
+  row-gap: 25px;
+  column-gap: 100px;
+}
+
+#h-name-field {
+  grid-area: h-name;
+}
+#name-field {
+  grid-area: name;
+}
+
+input {
+  width: 85%;
+  height: max-content;
+  padding: 20px 10px;
+}
+
+textarea {
+  width: 85%;
+  height: 100px;
+  padding: 10px;
+}
+
+#name-field input {
+  width: 38%;
+  margin-right: 3.5%;
+  display: inline-block;
+}
+
+#h-email-field {
+  grid-area: h-email;
+}
+
+#email-field {
+  grid-area: email;
+}
+
+#h-company-field {
+  grid-area: h-company;
+}
+
+#company-field {
+  grid-area: company;
+}
+
+#h-phone-field {
+  grid-area: h-phone;
+}
+
+#phone-field {
+  grid-area: phone;
+}
+
+#h-category-field {
+  grid-area: h-category;
+}
+
+#category-field {
+  grid-area: category;
+}
+
+#h-description-field {
+  grid-area: h-description;
+}
+
+#description-field {
+  grid-area: description;
+}
+
+span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 20px;
+  background-color: rgb(210, 210, 210);
+}
+
+p {
+  padding: 0 100px;
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  margin: 30px auto;
+  display: block;
+  color: white;
+  font-size: 26px;
+  border-radius: 50px;
+  background-color: #333333;
+}

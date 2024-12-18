@@ -4,7 +4,7 @@ section {
 
 #news_section {
   background-color: #f6f6f6;
-  height: 1000px;
+  height: 1100px;
 }
 
 .text-format {
@@ -14,7 +14,7 @@ section {
   text-align: center;
 }
 
-.sticky_left {
+.sticky-left {
   position: sticky;
   top: 50vh;
   transform: translateY(-50%);
@@ -45,6 +45,7 @@ section img {
 
 .text-in-image {
   margin: 0;
+  width: max-content;
   font-size: 57px;
   font-weight: 400;
   color: white;
@@ -69,6 +70,27 @@ section img {
 
 .news {
   padding-right: 40px;
+  align-self: flex-start;
+}
+
+.item01 {
+  order: 1;
+}
+
+.item02 {
+  order: 2;
+}
+
+.item03 {
+  order: 3;
+}
+
+.item04 {
+  order: 4;
+}
+
+.item05 {
+  order: 5;
 }
 
 .news img {
@@ -88,4 +110,17 @@ section img {
   text-align: left;
   padding: 5px;
   word-break: break-all;
+}
+
+.button {
+  display: block;
+  width: 350px;
+  height: 75px;
+  margin: 80px auto;
+  letter-spacing: 5px;
+}
+
+.button:hover {
+  background-color: rgb(171, 205, 68);
+  border: none;
 }
