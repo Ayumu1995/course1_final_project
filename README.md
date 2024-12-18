@@ -2,7 +2,7 @@
 
 ## About This Project
 
-This project was created as the final project for Tamwood's Course 1. In this project, we build a website and implement navigation.
+This project was created as the final project for Tamwood's Course 1. In this project, I replicate a website focusing on the design.
 
 ## How to View This Site
 
@@ -58,9 +58,8 @@ course1_final_project
 
 ## References
 
-- [Reference Site 1](https://example.com)
-- [Reference Site 2](https://example.com)
+- [amana visual](https://www.amana-visual.jp/)
 
 ## Author
 
-Ayumu 　 Miyamoto
+Ayumu Miyamoto
