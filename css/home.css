@@ -112,7 +112,7 @@ section img {
   word-break: break-all;
 }
 
-.button {
+#button {
   display: block;
   width: 350px;
   height: 75px;
@@ -120,7 +120,7 @@ section img {
   letter-spacing: 5px;
 }
 
-.button:hover {
+#button:hover {
   background-color: rgb(171, 205, 68);
   border: none;
 }
