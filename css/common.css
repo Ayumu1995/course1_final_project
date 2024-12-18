@@ -24,7 +24,10 @@ header > h1 {
   color: white;
 }
 
-header img {
+header a {
   align-self: center;
+}
+
+header img {
   height: 15px;
 }

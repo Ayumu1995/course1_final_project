@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  padding: 20px 60px;
+}
+
+header > h1 {
+  font-size: 28px;
+  font-weight: 500;
+  height: 30px;
+  color: rgb(0, 0, 0);
+}
+
+header a {
+  align-self: center;
+}
+
+header img {
+  height: 15px;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 80px);
+  padding: 200px 15%;
+}
+
+main img {
+  float: left;
+  width: 45%;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.text-format {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+}
+
+nav {
+  float: left;
+  padding-left: 5%;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+.services-items {
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.titles {
+  margin-top: 75px;
+}
+
+#bottom-nav {
+  clear: both;
+  width: 100%;
+  padding-top: 100px;
+  justify-content: space-between;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#follow-us {
+  float: left;
+}
+
+.sns {
+  float: right;
+}
+
+.sns:last-child {
+  margin-right: 20px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(135, 135, 135);
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
